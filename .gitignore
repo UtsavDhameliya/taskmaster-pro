@@ -1,0 +1,23 @@
+# Environments & dependencies
+venv/
+to_do/venv/
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+to_do/logs/*.log
+to_do/logs/*.zip
+
+# Secrets & Local configs
+.env
+to_do/.env
+.vscode/
+
+# OS
+Thumbs.db
+.DS_Store
